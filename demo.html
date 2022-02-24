@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        nav {
+            width: 960px;
+            height: 55px;
+            background: pink;
+        }
+        
+        .menu li {
+            width: 140px;
+            height: 50px;
+            list-style-type: none;
+            float: left;
+            text-indent: 5px;
+            line-height: 50px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .menu li:hover {
+            background-color: royalblue;
+        }
+        
+        li:hover>a {
+            color: red;
+        }
+        
+        nav span {
+            font-size: 18;
+            line-height: 50px;
+            font-weight: bold;
+            float: right;
+        }
+        
+        nav span button {
+            border-radius: 50%;
+            background-color: saddlebrown;
+            color: seashell;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <li> <a href="">HOME</a> </li>
+            <li>
+                <a href="">ABOUT</a></li>
+            <li><a href="">PRODUCTS</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+        <span>
+            SEARCH:&nbsp;
+            <input type="text" size="18" >
+            <button>GO</button>
+        </span>
+
+    </nav>
+</body>
+
+</html>
